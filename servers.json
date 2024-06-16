@@ -1,0 +1,14 @@
+[
+  {
+    "name": "GeoDash",
+    "link": "https://geodash.click/", 
+    "author": "Kenlie Navacilla",
+    "authorLink": "https://www.facebook.com/kenlienjugarap",
+    "id": "1",
+    "endpoint": "https://geodash.click/",
+    "timestampSuffix": "ago",
+    "demonList": "https://geodash.click/",
+    "pinned": true
+  
+  }
+]
