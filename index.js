@@ -24,7 +24,7 @@ const RL = rateLimit({
   max: app.config.rateLimiting ? 100 : 0, // max requests per 5 minutes
   message: rlMessage,
   keyGenerator: function(req) { return req.headers['x-real-ip'] || req.headers['x-forwarded-for'] },
-  skip: function(req) { return ((req.url.includes("api/level") && !req.query.hasOwnProperty("download")) ? true : false) }
+  skip: function(req) { return ((req.url.includes(`api/level`) && !req.query.hasOwnProperty("download")) ? true : false) }
 })
 
 const RL2 = rateLimit({
@@ -376,7 +376,7 @@ app.get('/icon/:text', function(req, res) {
 })
 
 app.get('*', function(req, res) {
-  if (req.path.startsWith('/api') || req.path.startsWith("/iconkit")) res.status(404).send('-1')
+  if (req.path.startsWith(`/api/`) || req.path.startsWith("/iconkit")) res.status(404).send('-1')
   else res.redirect('/search/404%20')
 });
 
