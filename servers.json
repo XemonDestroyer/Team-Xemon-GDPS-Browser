@@ -1,13 +1,13 @@
 [
   {
-    "name": "GeoDash",
-    "link": "https://geodash.click", 
-    "author": "Kenlie Navacilla",
+    "name": "GDPH",
+    "link": "https://gdph.ps.fhgdps.com/", 
+    "author": "GDPH TEAM",
     "authorLink": "",
     "id": "",
-    "endpoint": "https://geodash.click/",
+    "endpoint": "https://gdph.ps.fhgdps.com/",
     "timestampSuffix": "ago",
-    "demonList": "https://geodash.click/",
+    "demonList": "https://gdph.ps.fhgdps.com/",
     "pinned": true
   
   }
