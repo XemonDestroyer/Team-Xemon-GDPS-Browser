@@ -5,7 +5,7 @@
     "author": "GDPH TEAM",
     "authorLink": "",
     "id": "",
-    "endpoint": "https://gdph.ps.fhgdps.com/database",
+    "endpoint": "https://gdph.ps.fhgdps.com",
     "timestampSuffix": "ago",
     "demonList": "https://gdph.ps.fhgdps.com/",
     "pinned": true
