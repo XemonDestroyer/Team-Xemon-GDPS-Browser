@@ -1,13 +1,13 @@
 [
   {
-    "name": "GDPH",
-    "link": "https://gdph.ps.fhgdps.com/", 
-    "author": "GDPH TEAM",
+    "name": "Team Xemon GDPS",
+    "link": "https://teamxemongd.ps.fhgdps.com/dashboard/", 
+    "author": "XemonDestroyer",
     "authorLink": "",
-    "id": "",
-    "endpoint": "https://gdph.ps.fhgdps.com/database/",
+    "id": "teamxemongdps",
+    "endpoint": "https://teamxemongd.ps.fhgdps.com/",
     "timestampSuffix": "ago",
-    "demonList": "https://gdph.ps.fhgdps.com/",
+    "demonList": "https://teamxemongd.ps.fhgdps.com/dashboard/",
     "pinned": true
   
   }
